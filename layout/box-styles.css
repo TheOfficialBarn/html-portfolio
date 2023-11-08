@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+body{
+    background-color: slategray;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+    line-height: normal;
+    color: darkslategray;
+}
+h1,h2{
+    border: 1px red;
+    border-style: solid;
+    background-color: #D18C1D;
+    padding: 10px; 
+    color: lightgray;
+
+    border-radius: 10px;
+    font-family: 'Koulen', cursive;
+    font-size: xx-large;
+}
+h2{    
+    font-family: 'Shantell Sans', cursive;
+    font-size: x-large;
+}
+li{
+    margin: 15px;
+    background-color: #C0A9DB;
+    padding: 10px 8px;
+    width: fit-content;
+}
+p{
+    width: 600px;
+    height: 400px;
+    padding:10px;
+    border: black;
+    border-style: dotted;
+    background-color: #D1D631;
+    border-radius: 30px;
+}
+a{
+    border: 3px;
+    border-bottom: dashed;
+    background-color: #A1A1A1;
+}
+footer p{
+    background-color: unset;
+    border-style: unset;
+    height: fit-content;
+    width: fit-content;
+}

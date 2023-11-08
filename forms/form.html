@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="utf-8">
+    <title>Aiden's Taqueria Togo</title>
+        
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Single+Day&display=swap');
+
+        body{
+        font-family: Verdana, Geneva, sans-serif;
+        background-color: slategray;
+        }
+        h1{
+            color:orange;
+            text-shadow: 1px 1px 1px lemonchiffon;
+            font-family: 'Alkatra', cursive;
+            text-decoration: underline;
+        }
+        h2{
+            color: lemonchiffon;
+        }
+        form{
+            font-family: monospace;
+            margin-right: auto;
+            text-align: center;
+        }
+        fieldset{
+            background-color: rgb(207, 68, 22);
+            border-radius: 30px;
+            border-color: yellow;
+        }
+        #introduction{
+            background-color: rgba(245, 245, 245, 0.348);
+            text-align: center;
+            border-radius: 10px;
+            font-size: medium;
+            padding: 1px;
+        }
+        #details{
+            color: wheat;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: x-large;
+        }
+        li{
+        color: lightgray;
+        }
+        ul{
+            list-style-type: none ;
+        }
+        input[type=text]{
+            width: 50%;
+            padding: 10px;
+            margin: 5px;
+            box-sizing: border-box;
+        }
+        input[type=email]{
+            width: 50%;
+            padding: 10px 15px;
+            margin: 5px 0;
+            box-sizing: border-box;
+        }
+        input[type=tel]{
+            width: 50%;
+            padding: 10px 15px;
+            margin: 5px 0;
+            box-sizing: border-box;
+        }
+        textarea{
+            font-style: italic;
+            width: 50%;
+        }
+        input[type=submit]
+        {
+            cursor: pointer;
+            width: 30%;
+            background-color: darkred;
+            color: white;
+            padding: 15px 15px;
+            margin: auto;
+            border: none;
+            border-radius: 3px;
+        }
+        input[type=reset]{
+            cursor: pointer;
+            width: 30%;
+            background-color:rgb(49, 49, 49);
+            margin: auto;
+            color: white;
+            padding: 15px 15px;
+            margin: auto;
+            border: none;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aiden's Taqueria</h1>
+    <h2>Order Online</h2>
+    <p id="introduction">Welcome to Aiden's Taqueria! Home of the most authentic Mexican street tacos since 2023. Enter your information below to get started on your order. Note that you can chooses to pick up your order by leaving out your address.</p>
+
+    <form id="formid" action="results.html" method="post">
+    <fieldset>
+        <h2 id="details"> Personal Details </h2>
+        <ul>
+            <li><label for="form-name"> First &amp; Last Name:* </label><br>
+                <input type="text" name="bothnames" id="bothnamesid" required></li>
+            <li><label for="form-email"> Email:* </label><br>
+                <input type="email" name="email" id="emailid" required></li>
+            <li><label for="form-address"> Delivery Adress: </label><br>
+                <input type="text" name="address" id="addressid"></li>
+            <li><label for="form-tel"> Cellphone: </label><br>
+                <input type="tel" name="cellphone" id="cellphoneid"></li>
+            <li><label>Choice of Meat &amp; Toppings:* </label><br>
+                <textarea name="ingredients" cols="60" rows="4" maxlength="300" id="storyid" placeholder="300 characters maximum present" required></textarea></li>                        
+        </ul>
+        <h2 id="details"> Which of our tasty tortillas should we use? </h2>
+        <p>Select one the following:
+            <select name="tortillas" size="1">
+                <option> Corn  </option>
+                <option> Flour </option>
+                <option> Half &amp; Half </option>
+                <option> Homemade Cilantro Flour </option>
+                <option> Gluten Free </option>
+            </select>
+        </p>
+    </fieldset>
+    <p>
+        <input type="submit" value="Order">
+        <input type="reset" value="Clear">
+    </p>
+    </form>  
+    <small>Back to <a href="../index.html">Home Page</a></small>
+    <footer>
+      <p>Site design copyright &#169; 2023 Barnard. All rights reserved.</p>
+    </footer>
+</body>
+</html>

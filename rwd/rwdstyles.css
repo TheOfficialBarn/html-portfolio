@@ -1,0 +1,140 @@
+/*STANDARD CSS*/
+
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+img{
+    border-radius: 10pt;
+    max-width: 100%;
+    height: auto;
+    margin: 0 0 10px 0;
+}
+
+body{
+    background-color: slategray;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+    color: lightgray;
+    line-height: normal;
+}
+
+h1{
+    background-color: lightslategray;
+    border-radius: 10pt;
+    font-family: 'Koulen', cursive;
+    font-size: xx-large;
+    color: sienna;
+    text-shadow: 3px 3px 3px sandybrown;
+    width: auto;
+    padding: 0px 8px;
+}
+
+small{
+    color:darkslategray;
+    text-align:right
+}
+
+a:any-link{
+    color: skyblue;
+}
+a:visited{
+    color: midnightblue;
+}
+a:hover{
+    color: lightskyblue;
+    font-size: larger;
+}
+a:active{
+    color:hotpink;
+}
+
+small{
+    float: left;
+}
+footer{
+    float: right;
+}
+
+
+/*CONDITIONAL CSS*/
+
+/*DESKTOP*/
+@media screen and (min-width:992px){
+
+    p{
+        font-size: medium;
+    }
+    div.one-fifth{
+    width: 30%;
+    float: left;
+    margin: 10px;
+    }
+    div.sourdough{
+        clear: left;
+        margin-left: 20%;
+    }
+    div.more{
+        clear: left;
+    }
+
+}
+
+/*LAPTOP*/
+@media screen and (max-width:992px){
+    p{
+        color: lightcyan;
+        font-size: large;
+    }
+    small p{
+        color:darkslategray;
+    }
+    div.one-fifth {
+        width: 45%;
+        float: left;
+        margin: 10px;
+    }
+    div.ciabatta{
+        clear: left;
+    }
+    div.baguette{
+        clear: left;
+        margin-left: 25%;
+        padding: 0 100% 0 0;
+}
+
+/*TABLET*/
+@media screen and (max-width: 768px){
+
+    p{
+        color: lightpink;
+        font-size: larger;
+    }
+    small p{
+        color:darkslategray;
+    }
+    footer{
+        float: left;
+        clear: left;
+    }
+}
+
+/*MOBILE*/
+@media screen and (max-width: 600px){
+
+    p{
+        color: lightgoldenrodyellow;
+    }
+    small p{
+        color:darkslategray;
+    }
+    div.one-fifth{
+        width: auto;
+        float: none;
+        margin-right: 0;
+    }
+    div.hidemobile{
+        display: none;
+    }
+}

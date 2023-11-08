@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+body{
+    background-image: url(../images/wichita.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+    color: lightblue;
+    line-height: normal;
+}
+iframe{
+    border-radius: 12px;
+    
+}
+
+h1{
+    background-color:rgba(50, 1, 100, 0.500);
+    border-radius: 10px;
+    font-family: 'Koulen', cursive;
+    font-size: xx-large;
+    color: gold;
+    text-shadow: 2px 2px 2px goldenrod;
+    padding-left: 5px;
+}
+h2 {
+    font-family: 'Shantell Sans', cursive;
+    color: greenyellow;
+    font-size: x-large;
+}
+.VidDescription{
+    background-color: rgba(50, 1, 100, 0.35);
+    border-radius: 10px;
+    padding: 5px;
+
+}
+small{
+    color:goldenrod;
+    text-align:right
+}
+a:any-link{
+    color: skyblue;
+}
+a:visited{
+    color: lightskyblue;
+}
+a:hover{
+    color: cyan;
+    font-size: larger;
+}
+a:active{
+    color:lightcyan;
+}

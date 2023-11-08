@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+
+*{
+    margin:0; 
+    padding:0;
+}
+
+body{
+    background-color:slategray;
+}
+
+#main_container{
+   width:600px;
+   margin-top:20px;
+   margin-right:auto;
+   margin-left:auto;
+   margin-bottom: 20px;
+   background-color:#ffffff;
+   overflow: hidden;
+   padding: 40px 0px 40px 150px;
+}
+.border {
+    border:10px solid #666666;
+    border-radius: 15px;
+    width:100px;
+    height:100px;
+}
+
+h2{
+    font-size: 80px;
+    font-family: verdana;
+    text-transform:uppercase;
+    text-align: center;
+    color:#666666;
+}
+
+#a{
+    margin-left: 150px;
+    margin-bottom: 2px;
+    float: left;
+    
+}
+
+#b{
+    margin-left: 90px;
+    clear: left;
+    float: left;
+}
+
+#c{
+    float: left;
+}
+
+#d{
+    margin-left: 30px;
+    clear: left;
+    float: left;
+}
+
+#e{
+    float: left;
+}
+
+#f{
+    float: left;
+}
+
+.blue{
+    color: dodgerblue;
+    border-color: dodgerblue;
+}
+.red{
+    color: red;
+    border-color: red;
+}
+.green{
+    color: green;
+    border-color: green;
+}
+
+a{
+    border: 3px;
+    border-bottom: dashed;
+    
+}
+small p{
+    width: 20%;
+    background-color: lightsteelblue;
+    border: 2px greenyellow;
+    border-style: solid;
+    border-radius: 30px;
+    padding: 10px;
+}
+p{
+    width: 50%;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+}

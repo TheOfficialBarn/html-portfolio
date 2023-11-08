@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+body{
+    background-color: royalblue;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+    color: lightblue;
+    line-height: normal;
+}
+main{
+    display: flex;
+    flex-direction: row; 
+    padding: 20px;
+    gap: 12px;
+
+}
+h1{
+    background-color:rgba(50, 1, 100, 0.500);
+    border-radius: 10px;
+    font-family: 'Koulen', cursive;
+    font-size: xx-large;
+    color: gold;
+    text-shadow: 2px 2px 2px goldenrod;
+    padding-left: 5px;
+}
+h2 {
+    font-family: 'Shantell Sans', cursive;
+    color: greenyellow;
+    font-size: x-large;
+}
+
+small{
+    color:goldenrod;
+    text-align:right
+}
+a:any-link{
+    color: skyblue;
+}
+a:visited{
+    color: lightskyblue;
+}
+a:hover{
+    color: cyan;
+    font-size: larger;
+}
+a:active{
+    color:lightcyan;
+}
+
+.card-container {
+  cursor: pointer;
+  height: 180px;
+  perspective: 600;
+  position: relative;
+  width: 180px;
+  box-shadow: (3px, 3px, 3px);
+}
+
+.card {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 100%;
+}
+.card:hover {
+  transform: rotateY(180deg);
+}
+.card .side {
+  backface-visibility: hidden;
+  border-radius: 6px;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  background-color: rgba(50, 1, 100, 0.250);
+  line-height: 180px;
+  text-align: center;
+}
+.card .back {
+  background: rgba(255,215,0,0.650);
+  color: #0087cc;
+  line-height: 180px;
+  text-align: center;
+  transform: rotateY(180deg);
+}
+
+
+

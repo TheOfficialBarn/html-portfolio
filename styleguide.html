@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+<head>
+    <meta charset="utf-8">
+    <link href="styleguide3.css" rel="stylesheet" type="text/css">
+    <title>Style Guide</title>
+    <link rel="icon" type="image/x-icon" href="images/icon.png"></head>
+
+<body>
+    <header>
+        <h1>Style Guide</h1>
+        
+        <nav>
+            <a href="index.html">Homepage</a>
+            <a href="styleguide.html" class="nav-current">Style Guide</a>
+            <a href="projects.html">Projects</a>
+           </nav>
+
+    </header>
+
+    <main>
+        <h2>Site Colors</h2>
+        <section>
+        <div class="card-container">
+            <div class="card">
+                <div class="side"><p>H1</p></div>
+                <div id="h1color" class="side back"><p>Blanched Almond</p>></div>
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="side"><p>H2</p></div>
+                <div id="h2color" class="side back"><p>Khaki</p></div>
+            </div>
+        </div>
+        
+        <div class="card-container">
+            <div class="card">
+                <div class="side"><p>H3</p></div>
+                <div id="h3color" class="side back"><p>Dark Sea Green</p></div>
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="side"><p>Background</p></div>
+                <div id="backgroundcolor" class="side back"><p>Steel Blue</p></div>
+            </div>
+        </div>
+    </section>
+    <p>These colors influence every dyncamic of this site! Whether you dive into my projects or browse my index page, you can find the source to the color scheme here.</p>
+    <br>
+
+    <h2>Fonts and Text Styles</h2>
+        <h3>Body and Main</h3>
+            <pre>
+            body{
+                background-color: slategray;
+                font-size: medium;
+                font-family: 'Roboto', sans-serif;
+                color: lightgray;
+                line-height: normal;
+              }
+              main{
+                padding-left: 30px;
+              }
+            </pre>
+        <h3>Headers</h3>
+            <pre>
+                h1{
+                    background-color: lightslategray;
+                    border-radius: 10pt;
+                    font-family: 'Koulen', cursive;
+                    font-size: xx-large;
+                    color: sienna;
+                    text-shadow: 3px 3px 3px sandybrown;
+                    padding-left: 5px;
+                }
+                h2 {
+                  font-family: 'Shantell Sans', cursive;
+                  color: darkgreen;
+                  font-size: x-large;
+                }
+                h3 {
+                  font-family: 'Single Day', cursive;
+                  color: darkseagreen;
+                  font-size: x-large;
+                }
+            </pre>
+        <h3>Small, Links, and Navigation</h3>
+        <p><a href="#">Here's a Link!</a></p>
+            <pre>
+                small{
+                    color:goldenrod;
+                    text-align:right
+                }
+                nav{
+                    text-align: center;
+                    background-color: lightslategray;
+                    border: 2px solid skyblue;
+                    border-radius: 6px;
+                  }
+                  ul li{
+                    display: inline-block;
+                  }
+                  a:any-link {
+                    display: block;
+                    width: 180px;
+                    margin: 0 5px;
+                    padding: 5px 1px;
+                    text-align: center;
+                    background-color: skyblue;
+                    color: black;
+                    text-decoration: none;
+                    border: 2px solid black;
+                    border-radius: 6px;
+                    position: relative;
+                    top: 0px;
+                    transition:  
+                      background-color 0.2s,
+                      border-color 0.2s, 
+                      top 0.1s, 
+                      box-shadow 0.1s; 
+                  }
+                  a:hover{
+                    background-color: lightcyan;
+                    font-size: larger;
+                  }
+                  a:active{
+                    background-color:lightskyblue;
+                  }
+            </pre>
+
+    </main>
+    <br>
+    <footer>
+        <small>Copyright&copy; 2022 Aiden Barnard</small>
+    </footer>
+</body>
+</html>
+
+

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Single+Day&display=swap');
+
+table, td, th {border: 1px solid violet;}
+body {
+  font-family: Arial, sans-serif;
+  font-size: medium;
+  line-height: normal;
+  background-color:lightblue;
+  color: snow;
+}
+h1,h2 {
+  font-family: 'Dosis', Times, serif 
+}
+h1 {
+  color:fuchsia;
+  font-size: xx-large;
+  font-family: "Shantell Sans";text-align: center;
+  text-shadow: 3px 3px 4px maroon;
+}
+h2 {
+  color:orchid;
+  font-size: x-large
+}
+p {
+  line-height: 25px;
+}
+footer {
+  font-size:small;
+  color: slategray;
+}
+small {
+  color: slategray;
+}
+thead {
+    color: yellow;
+}
+.hi {
+    color: red;
+}
